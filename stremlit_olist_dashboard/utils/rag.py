@@ -19,7 +19,7 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
-DATA_DIR = Path(__file__).parent.parent / "data"
+DATA_DIR = Path(__file__).parent.parent / "rag"
 CHANNELS = {
     "A": "A. 분석 사실 확인 (사실표)",
     "B": "B. 분석 + 모델 안내 (사실표 + 모델 설명서)",

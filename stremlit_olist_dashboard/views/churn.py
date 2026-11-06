@@ -1,4 +1,4 @@
-"""🚨 판매자 이탈 위험 (09 · part9_seller_churn.pkl + data/seller_table.csv)
+"""🚨 판매자 이탈 위험 (09 · part9_seller_churn.pkl + model/seller_table.csv)
 이탈 모델은 숫자 14개가 필요해서 직접 입력하지 않고,
 10 노트북에서 만든 판매자 표(seller_table.csv)에서 판매자를 골라 봅니다.
 """
