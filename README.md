@@ -15,9 +15,9 @@ flowchart LR
     B --> C["🧠 model<br/>학습한 모델 파일"]
     C --> D["STEP2<br/>감성 분석 데모<br/>(Gradio)"]
     C --> E["STEP3<br/>배포 파일 준비"]
-    B --> R["📚 rag<br/>사실표 · 설명서 · 규정집"]
-    R --> F["STEP4<br/>RAG 챗봇"]
     E --> G["🖥️ Streamlit<br/>대시보드"]
+    B --> F["STEP4<br/>RAG 챗봇"]
+    F --> R["📚 rag<br/>사실표 · 설명서 · 규정집"]
     R --> G
 ```
 
